@@ -1,0 +1,16 @@
+{
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"DocBlockr",
+		"Edit Preferences",
+		"JsFormat",
+		"JSHint Gutter",
+		"Nodejs",
+		"Pretty JSON",
+		"Sublime Bookmarks",
+		"SublimeCodeIntel",
+		"SublimeREPL",
+		"TrailingSpaces"
+	]
+}
