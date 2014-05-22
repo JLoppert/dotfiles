@@ -5,17 +5,17 @@
   "node_path": "/usr/local/bin/node",
 
   // Automatically lint on edit (Sublime Text 3 only).
-  "lint_on_edit": false,
+  "lint_on_edit": true,
 
   // Automatically lint when a file is loaded.
-  "lint_on_load": false,
+  "lint_on_load": true,
 
   // No edit duration before re-linting.
   "lint_on_edit_timeout": 1,
 
   // Automatically lint when a file is saved.
-  "lint_on_save": false,
+  "lint_on_save": true,
 
   // Highlight problematic regions when selected.
-  "highlight_selected_regions": false
+  "highlight_selected_regions": true
 }

@@ -1,0 +1,3 @@
+{
+    "perforce_p4clientspec": "~/.p4admin" // optional environent file to source rather than ~/.bash_profile
+}

@@ -5,10 +5,13 @@
   "browser": true,
   "esnext": true,
   "globals": {},
-  "globalstrict": true,
-  "quotmark": true,
-  "smarttabs": true,
+  "globalstrict": false,
   "trailing": true,
   "undef": true,
-  "unused": true
+  "unused": true,
+  "curly": true,
+  "eqeqeq": true,
+  "quotmark": "single",
+  "devel": true,
+  "node": true
 }
