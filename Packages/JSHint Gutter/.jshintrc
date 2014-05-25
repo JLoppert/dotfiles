@@ -13,5 +13,7 @@
   "eqeqeq": true,
   "quotmark": "single",
   "devel": true,
-  "node": true
+  "node": true,
+  // Suppress 'Read Only' warning for global variables
+  "-W020": true
 }
