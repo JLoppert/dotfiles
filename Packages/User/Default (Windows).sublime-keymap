@@ -44,6 +44,15 @@
       "file": "Packages/User/add-semicolon.sublime-macro"
     }
   },
+    {
+    "keys": [
+      "ctrl+shift+,"
+    ],
+    "command": "run_macro_file",
+    "args": {
+      "file": "Packages/User/add-comma.sublime-macro"
+    }
+  },
   {
     "keys": [
       "ctrl+alt+u"
