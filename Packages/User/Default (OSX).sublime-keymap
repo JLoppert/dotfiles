@@ -16,5 +16,23 @@
         "args": {
             "file": "Packages/User/add-comma.sublime-macro"
         }
+    },
+    {
+        "keys": [
+            "end"
+        ],
+        "command": "move_to",
+        "args": {
+            "to": "eol"
+        }
+    },
+    {
+        "keys": [
+            "home"
+        ],
+        "command": "move_to",
+        "args": {
+            "to": "bol"
+        }
     }
 ]
