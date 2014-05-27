@@ -9,8 +9,8 @@ Sublime Text
 
 Windows (cmd)
 ```
-mklink .\sublime\Packages C:\Users\<user_name>\AppData\Sublime Text 3\Packages
-mklink .\sublime\Installed\ Packages C:\Users\<user_name>\AppData\Sublime Text 3\Installed\ Packages
+mklink /D "C:\Users\<user_name>\AppData\Sublime Text 3\Packages" ".\sublime\Packages"
+mklink /D "C:\Users\<user_name>\AppData\Sublime Text 3\Installed Packages" ".\sublime\Installed Packages"
 ```
 
 OSX
