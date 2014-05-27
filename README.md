@@ -1,6 +1,8 @@
 Setup
 ==================
+```
 git clone git@github.com:JLoppert/Preferences.git
+```
 
 Sublime Text
 ==================
@@ -19,5 +21,7 @@ ln -f ./sublime/Installed\ Packages /Users/<user_name>/Library/Application Suppo
 
 Bash
 ==================
+```
 ln -f bash_profile ~/.bash_profile
 ln -f git_completion ~/.git_completion
+```
