@@ -1,0 +1,65 @@
+[
+  {
+    "keys": [
+      "ctrl+shift+o"
+    ],
+    "command": "prompt_open_folder"
+  },
+  {
+    "keys": [
+      "ctrl+k",
+      "ctrl+s"
+    ],
+    "command": "delete_trailing_spaces"
+  },
+  {
+    "keys": [
+      "ctrl+shift+alt+w"
+    ],
+    "command": "close_all"
+  },
+  {
+    "keys": [
+      "ctrl+k",
+      "ctrl+m"
+    ],
+    "command": "toggle_minimap"
+  },
+  {
+    "keys": [
+      "ctrl+alt+q"
+    ],
+    "command": "show_overlay",
+    "args": {
+      "overlay": "command_palette",
+      "text": "Snippet:"
+    }
+  },
+  {
+    "keys": [
+      "ctrl+shift+;"
+    ],
+    "command": "run_macro_file",
+    "args": {
+      "file": "Packages/User/add-semicolon.sublime-macro"
+    }
+  },
+    {
+    "keys": [
+      "ctrl+shift+,"
+    ],
+    "command": "run_macro_file",
+    "args": {
+      "file": "Packages/User/add-comma.sublime-macro"
+    }
+  },
+  {
+    "keys": [
+      "ctrl+alt+u"
+    ],
+    "command": "permute_lines",
+    "args": {
+      "operation": "unique"
+    }
+  }
+]

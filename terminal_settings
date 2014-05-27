@@ -1,0 +1,24 @@
+
+# Transparent Dock
+defaults write com.apple.Dock showhidden -bool YES && killall Dock
+
+# Full path in Finder
+defaults write com.apple.finder _FXShowPosixPathInTitle -bool YES && killall Finder
+
+# Disable spaces animation
+defaults write com.apple.dock expose-animation-duration 0; killall Dock
+
+# Disable rubber band effect
+defaults write -g NSScrollViewRubberbanding -int 0
+
+# Disable window opening animations
+defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool NO
+
+# Disable Dashboard
+defaults write com.apple.dashboard mcx-disabled -boolean YES
+
+# Show All Hidden Files
+defaults write com.apple.Finder AppleShowAllFiles YES && killall Finder
+
+# Sublime shortcut
+sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl

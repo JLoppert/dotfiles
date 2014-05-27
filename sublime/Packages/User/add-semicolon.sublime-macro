@@ -1,0 +1,15 @@
+[
+    {
+        "args": {
+            "extend": false,
+            "to": "eol"
+        },
+        "command": "move_to"
+    },
+    {
+        "args": {
+            "characters": ";"
+        },
+        "command": "insert"
+    }
+]
