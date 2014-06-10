@@ -1,9 +1,13 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
-	"draw_white_space": "all",
-	"ignored_packages":
-	[
-		"Vintage"
-	],
-	"translate_tabs_to_spaces": true
+    "color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+    "draw_white_space": "all",
+    "font_size": 10,
+    "ignored_packages": [
+        "Vintage"
+    ],
+    "translate_tabs_to_spaces": true,
+    "highlight_line": true,
+    "bold_folder_labels": true,
+    "caret_style": "phase",
+    "fade_fold_buttons": false
 }
