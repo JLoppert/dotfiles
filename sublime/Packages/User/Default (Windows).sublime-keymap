@@ -80,11 +80,20 @@
             "file": "Packages/User/delete_subword_forward.sublime-macro"
         }
     },
-        {
+    {
         "keys": [
             "ctrl+p",
             "ctrl+j"
         ],
-        "command": "pretty_json",
+        "command": "pretty_json"
+    },
+    {
+        "keys": [
+            "ctrl+shift+["
+        ],
+        "command": "run_macro_file",
+        "args": {
+            "file": "Packages/User/add-braces.sublime-macro"
+        }
     }
 ]
