@@ -8,12 +8,13 @@
 	"font_size": 9,
 	"highlight_line": true,
 	"highlight_modified_tabs": true,
-	"ignored_packages": [
+	"ignored_packages":
+	[
 		"Vintage"
 	],
 	"line_padding_bottom": 1,
-	"translate_tabs_to_spaces": true,
 	"show_full_path": true,
 	"show_line_endings": true,
+	"translate_tabs_to_spaces": true,
 	"word_wrap": false
 }
