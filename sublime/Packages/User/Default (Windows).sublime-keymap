@@ -82,7 +82,7 @@
     },
     {
         "keys": [
-            "ctrl+p",
+            "ctrl+k",
             "ctrl+j"
         ],
         "command": "pretty_json"
@@ -94,6 +94,26 @@
         "command": "run_macro_file",
         "args": {
             "file": "Packages/User/add-braces.sublime-macro"
+        }
+    },
+    {
+        "keys": [
+            "ctrl+,"
+        ],
+        "command": "open_file",
+        "args": {
+            "contents": "[\n    $0\n]\n",
+            "file": "${packages}/User/Default ($platform).sublime-keymap"
+        }
+    },
+    {
+        "keys": [
+            "ctrl+."
+        ],
+        "command": "open_file",
+        "args": {
+            "contents": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by file type specific settings.\n{\n    $0\n}\n",
+            "file": "${packages}/User/Preferences.sublime-settings"
         }
     }
 ]
