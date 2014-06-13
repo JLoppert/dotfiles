@@ -7,8 +7,7 @@
     },
     {
         "keys": [
-            "ctrl+k",
-            "ctrl+s"
+            "ctrl+alt+s"
         ],
         "command": "delete_trailing_spaces"
     },
@@ -82,8 +81,7 @@
     },
     {
         "keys": [
-            "ctrl+k",
-            "ctrl+j"
+            "ctrl+alt+j"
         ],
         "command": "pretty_json"
     },
@@ -98,7 +96,7 @@
     },
     {
         "keys": [
-            "ctrl+,"
+            "ctrl+."
         ],
         "command": "open_file",
         "args": {
@@ -108,7 +106,7 @@
     },
     {
         "keys": [
-            "ctrl+."
+            "ctrl+,"
         ],
         "command": "open_file",
         "args": {
