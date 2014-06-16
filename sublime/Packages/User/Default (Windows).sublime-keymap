@@ -7,7 +7,8 @@
     },
     {
         "keys": [
-            "ctrl+alt+s"
+            "ctrl+k",
+            "ctrl+s"
         ],
         "command": "delete_trailing_spaces"
     },
@@ -81,7 +82,8 @@
     },
     {
         "keys": [
-            "ctrl+alt+j"
+            "ctrl+k",
+            "ctrl+p",
         ],
         "command": "pretty_json"
     },
@@ -113,5 +115,12 @@
             "contents": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by file type specific settings.\n{\n    $0\n}\n",
             "file": "${packages}/User/Preferences.sublime-settings"
         }
-    }
+    },
+    {
+        "keys": [
+            "ctrl+k",
+            "ctrl+j",
+        ],
+        "command": "jshint"
+    },
 ]
