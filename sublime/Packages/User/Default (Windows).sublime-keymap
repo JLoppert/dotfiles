@@ -83,7 +83,7 @@
     {
         "keys": [
             "ctrl+k",
-            "ctrl+p",
+            "ctrl+p"
         ],
         "command": "pretty_json"
     },
@@ -119,8 +119,23 @@
     {
         "keys": [
             "ctrl+k",
-            "ctrl+j",
+            "ctrl+j"
         ],
         "command": "jshint"
     },
+    {
+        "keys": [
+            "ctrl+alt+right"
+        ],
+        "command": "focus_neighboring_group"
+    },
+    {
+        "keys": [
+            "ctrl+alt+left"
+        ],
+        "command": "focus_neighboring_group",
+        "args": {
+            "forward": false
+        }
+    }
 ]
