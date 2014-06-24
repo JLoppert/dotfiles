@@ -3,17 +3,26 @@
   // Example: https://github.com/jshint/jshint/blob/master/examples/.jshintrc
   // Documentation: http://www.jshint.com/docs/
   "browser": true,
+  "camelcase": true,
+  "curly": true,
+  "devel": true,
+  "eqeqeq": true,
   "esnext": true,
+  "evil": true,
   "globals": {},
   "globalstrict": false,
+  "indent": 4,
+  "latedef": true,
+  "maxlen": 100,
+  "multistr": true,
+  "newcap": true,
+  "noempty": true,
+  "node": true,
+  "quotmark": "single",
+  "sub": true,
   "trailing": true,
   "undef": true,
   "unused": true,
-  "curly": true,
-  "eqeqeq": true,
-  "quotmark": "single",
-  "devel": true,
-  "node": true,
   // Suppress 'Read Only' warning for global variables
   "-W020": true
 }

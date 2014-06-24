@@ -13,6 +13,10 @@
 		"Vintage"
 	],
 	"line_padding_bottom": 1,
+	"rulers":
+	[
+		100
+	],
 	"show_full_path": true,
 	"show_line_endings": true,
 	"translate_tabs_to_spaces": true,
