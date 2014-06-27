@@ -2,18 +2,13 @@
 	"installed_packages":
 	[
 		"BracketHighlighter",
-		"DocBlockr",
 		"Edit Preferences",
-		"Git",
 		"GitGutter",
-		"Grunt",
 		"JavaScript & NodeJS Snippets",
 		"JsFormat",
 		"JSHint Gutter",
 		"Perforce",
 		"Pretty JSON",
-		"Sublime Bookmarks",
-		"SublimeREPL",
 		"TrailingSpaces"
 	]
 }
