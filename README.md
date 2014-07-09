@@ -6,7 +6,6 @@ git clone git@github.com:JLoppert/Preferences.git
 
 Sublime Text
 ==================
-
 Windows
 ```
 cmd /c mklink /D "C:\Users\<user_name>\AppData\Sublime Text 3\Packages" ".\sublime\Packages"
@@ -17,6 +16,13 @@ OSX
 ```
 ln -s <full_path>/sublime/Packages /Users/<user_name>/Library/Application Support/Sublime Text 3/Packages
 ln -s <full_path>/sublime/Installed\ Packages /Users/<user_name>/Library/Application Support/Sublime Text 3/Installed\ Packages
+```
+
+Atom
+==================
+Windows
+```
+cmd /c mklink /D "C:\Users\<user_name>\.atom" ".\atom"
 ```
 
 Bash
