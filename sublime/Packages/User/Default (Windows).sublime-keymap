@@ -1,156 +1,169 @@
 [
     {
+        "command": "exit",
         "keys": [
-            "ctrl+shift+o"
-        ],
-        "command": "prompt_open_folder"
+            "ctrl+q"
+        ]
     },
     {
+        "command": "toggle_show_open_files",
+        "keys": [
+            "ctrl+k",
+            "ctrl+o"
+        ]
+    },
+    {
+        "command": "prompt_open_folder",
+        "keys": [
+            "ctrl+shift+o"
+        ]
+    },
+    {
+        "command": "delete_trailing_spaces",
         "keys": [
             "ctrl+k",
             "ctrl+s"
-        ],
-        "command": "delete_trailing_spaces"
+        ]
     },
     {
+        "command": "close_all",
         "keys": [
             "ctrl+shift+alt+w"
-        ],
-        "command": "close_all"
+        ]
     },
     {
+        "command": "toggle_minimap",
         "keys": [
             "ctrl+k",
             "ctrl+m"
-        ],
-        "command": "toggle_minimap"
+        ]
     },
     {
-        "keys": [
-            "ctrl+alt+q"
-        ],
-        "command": "show_overlay",
         "args": {
             "overlay": "command_palette",
             "text": "Snippet:"
-        }
+        },
+        "command": "show_overlay",
+        "keys": [
+            "ctrl+alt+q"
+        ]
     },
     {
-        "keys": [
-            "ctrl+shift+;"
-        ],
-        "command": "run_macro_file",
         "args": {
             "file": "Packages/User/add-semicolon.sublime-macro"
-        }
+        },
+        "command": "run_macro_file",
+        "keys": [
+            "ctrl+shift+;"
+        ]
     },
     {
-        "keys": [
-            "ctrl+shift+,"
-        ],
-        "command": "run_macro_file",
         "args": {
             "file": "Packages/User/add-comma.sublime-macro"
-        }
+        },
+        "command": "run_macro_file",
+        "keys": [
+            "ctrl+shift+,"
+        ]
     },
     {
-        "keys": [
-            "ctrl+alt+u"
-        ],
-        "command": "permute_lines",
         "args": {
             "operation": "unique"
-        }
+        },
+        "command": "permute_lines",
+        "keys": [
+            "ctrl+alt+u"
+        ]
     },
     {
-        "keys": [
-            "alt+backspace"
-        ],
-        "command": "run_macro_file",
         "args": {
             "file": "Packages/User/delete_subword.sublime-macro"
-        }
+        },
+        "command": "run_macro_file",
+        "keys": [
+            "alt+backspace"
+        ]
     },
     {
-        "keys": [
-            "alt+delete"
-        ],
-        "command": "run_macro_file",
         "args": {
             "file": "Packages/User/delete_subword_forward.sublime-macro"
-        }
+        },
+        "command": "run_macro_file",
+        "keys": [
+            "alt+delete"
+        ]
     },
     {
+        "command": "pretty_json",
         "keys": [
             "ctrl+k",
             "ctrl+p"
-        ],
-        "command": "pretty_json"
+        ]
     },
     {
-        "keys": [
-            "ctrl+shift+["
-        ],
-        "command": "run_macro_file",
         "args": {
             "file": "Packages/User/add-braces.sublime-macro"
-        }
+        },
+        "command": "run_macro_file",
+        "keys": [
+            "ctrl+shift+["
+        ]
     },
     {
-        "keys": [
-            "ctrl+."
-        ],
-        "command": "open_file",
         "args": {
             "contents": "[\n    $0\n]\n",
             "file": "${packages}/User/Default ($platform).sublime-keymap"
-        }
+        },
+        "command": "open_file",
+        "keys": [
+            "ctrl+."
+        ]
     },
     {
-        "keys": [
-            "ctrl+,"
-        ],
-        "command": "open_file",
         "args": {
             "contents": "// Settings in here override those in \"Default/Preferences.sublime-settings\",\n// and are overridden in turn by file type specific settings.\n{\n    $0\n}\n",
             "file": "${packages}/User/Preferences.sublime-settings"
-        }
+        },
+        "command": "open_file",
+        "keys": [
+            "ctrl+,"
+        ]
     },
     {
+        "command": "jshint",
         "keys": [
             "ctrl+k",
             "ctrl+j"
-        ],
-        "command": "jshint"
+        ]
     },
     {
+        "command": "focus_neighboring_group",
         "keys": [
             "ctrl+alt+right"
-        ],
-        "command": "focus_neighboring_group"
+        ]
     },
     {
+        "args": {
+            "forward": false
+        },
+        "command": "focus_neighboring_group",
         "keys": [
             "ctrl+alt+left"
-        ],
-        "command": "focus_neighboring_group",
-        "args": {
-            "forward": false
-        }
+        ]
     },
     {
+        "command": "move_to_neighboring_group",
         "keys": [
             "ctrl+shift+alt+right"
-        ],
-        "command": "move_to_neighboring_group"
+        ]
     },
     {
-        "keys": [
-            "ctrl+shift+alt+left"
-        ],
-        "command": "move_to_neighboring_group",
         "args": {
             "forward": false
-        }
+        },
+        "command": "move_to_neighboring_group",
+        "keys": [
+            "ctrl+shift+alt+left"
+        ]
     }
 ]
