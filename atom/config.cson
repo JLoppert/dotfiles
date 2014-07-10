@@ -1,11 +1,14 @@
 'editor':
   'fontSize': 16
   'showInvisibles': true
+  'showIndentGuide': true
+  'tabLength': 4
 'core':
   'themes': [
     'atom-dark-ui'
     'atom-dark-syntax'
   ]
+  'useReactEditor': true
 'exception-reporting':
   'userId': '5e89d99b-958f-5e69-98f6-e18efc15dc07'
 'welcome':
