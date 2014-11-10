@@ -12,7 +12,7 @@ cmd /c mklink /D "C:\Users\<user_name>\AppData\Sublime Text 3\Packages" ".\subli
 cmd /c mklink /D "C:\Users\<user_name>\AppData\Sublime Text 3\Installed Packages" ".\sublime\Installed Packages"
 ```
 
-OSX
+OS X
 ```bash
 ln -s <full_path>/sublime/Packages /Users/<user_name>/Library/Application\ Support/Sublime\ Text\ 3/Packages
 ln -s <full_path>/sublime/Installed\ Packages /Users/<user_name>/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
@@ -23,6 +23,11 @@ Atom
 Windows
 ```powershell
 cmd /c mklink /D "C:\Users\<user_name>\.atom" ".\atom"
+```
+
+OS X
+```bash
+ln -s <full_path>/atom /Users/<user_name>/.atom
 ```
 
 Bash
