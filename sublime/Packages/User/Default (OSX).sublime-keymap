@@ -5,7 +5,7 @@
         ],
         "command": "run_macro_file",
         "args": {
-            "file": "Packages/User/add-semicolon.sublime-macro"
+            "file": "${packages}/User/add-semicolon.sublime-macro"
         }
     },
     {
@@ -14,7 +14,7 @@
         ],
         "command": "run_macro_file",
         "args": {
-            "file": "Packages/User/add-comma.sublime-macro"
+            "file": "${packages}/User/add-comma.sublime-macro"
         }
     },
     {
@@ -41,35 +41,16 @@
         ],
         "command": "open_file",
         "args": {
-            "contents": "[\n    $0\n]\n",
-            "file": "${packages}/User/Default ($platform).sublime-keymap"
+            "file": "${packages}/User/Default (${platform}).sublime-keymap"
         }
     },
     {
         "keys": [
-            "alt+backspace"
+            "ctrl+shift+["
         ],
         "command": "run_macro_file",
         "args": {
-            "file": "Packages/User/delete_subword.sublime-macro"
-        }
-    },
-    {
-        "keys": [
-            "alt+delete"
-        ],
-        "command": "run_macro_file",
-        "args": {
-            "file": "Packages/User/delete_subword_forward.sublime-macro"
-        }
-    },
-    {
-        "keys": [
-            "super+shift+["
-        ],
-        "command": "run_macro_file",
-        "args": {
-            "file": "Packages/User/add-braces.sublime-macro"
+            "file": "${packages}/User/add-braces.sublime-macro"
         }
     }
 ]
