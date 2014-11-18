@@ -1,16 +1,17 @@
 {
 	"installed_packages":
 	[
-		"Better CoffeeScript",
 		"BracketHighlighter",
+		"CodeFormatter",
 		"Edit Preferences",
 		"GitGutter",
-		"Indent XML",
 		"JavaScript & NodeJS Snippets",
-		"JsFormat",
-		"LESS",
 		"Perforce",
-		"Pretty JSON",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-rubocop",
 		"TrailingSpaces"
 	]
 }

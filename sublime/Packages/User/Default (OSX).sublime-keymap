@@ -1,21 +1,9 @@
 [
     {
         "keys": [
-            "super+shift+;"
+            "ctrl+alt+t"
         ],
-        "command": "run_macro_file",
-        "args": {
-            "file": "${packages}/User/add-semicolon.sublime-macro"
-        }
-    },
-    {
-        "keys": [
-            "super+shift+,"
-        ],
-        "command": "run_macro_file",
-        "args": {
-            "file": "${packages}/User/add-comma.sublime-macro"
-        }
+        "command": "delete_trailing_spaces"
     },
     {
         "keys": [
@@ -34,23 +22,44 @@
         "args": {
             "to": "bol"
         }
-    },
-    {
-        "keys": [
-            "ctrl+."
-        ],
-        "command": "open_file",
-        "args": {
-            "file": "${packages}/User/Default (${platform}).sublime-keymap"
-        }
-    },
-    {
-        "keys": [
-            "ctrl+shift+["
-        ],
-        "command": "run_macro_file",
-        "args": {
-            "file": "${packages}/User/add-braces.sublime-macro"
-        }
     }
 ]
+
+// {
+//     "keys": [
+//         "ctrl+."
+//     ],
+//     "command": "open_file",
+//     "args": {
+//         "file": "${packages}/User/Default (${platform}).sublime-keymap"
+//     }
+// },
+// {
+//     "keys": [
+//         "ctrl+shift+["
+//     ],
+//     "command": "run_macro_file",
+//     "args": {
+//         "file": "${packages}/User/add-braces.sublime-macro"
+//     }
+// }
+
+
+// {
+//     "keys": [
+//         "super+shift+;"
+//     ],
+//     "command": "run_macro_file",
+//     "args": {
+//         "file": "${packages}/User/add-semicolon.sublime-macro"
+//     }
+// },
+// {
+//     "keys": [
+//         "super+shift+,"
+//     ],
+//     "command": "run_macro_file",
+//     "args": {
+//         "file": "${packages}/User/add-comma.sublime-macro"
+//     }
+// },
