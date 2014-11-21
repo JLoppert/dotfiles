@@ -22,8 +22,15 @@
         "args": {
             "to": "bol"
         }
+    },
+    {
+        "keys": [
+            "super+alt+d"
+        ],
+        "command": "expand_selection_to_paragraph"
     }
 ]
+// open_file {"contents": "[\n $0\n]\n", "file": "${packages}/User/Default ($platform).sublime-keymap"}
 
 // {
 //     "keys": [
