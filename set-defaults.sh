@@ -18,10 +18,3 @@ defaults write -g NSScrollViewRubberbanding -int 0
 
 # Disable window opening animations
 defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool NO
-
-
-# Sublime Text alias
-sudo ln -s /Applications/Sublime\ Text\ 3.app/Contents/SharedSupport/bin/subl /bin/subl
-
-# Atom alias
-sudo ln -s /Applications/Sublime\ Text\ 3.app/Contents/MacOS/Atom /bin/atom
