@@ -1,12 +1,15 @@
 {
 	"installed_packages":
 	[
+		"AlignTab",
 		"BracketHighlighter",
 		"CodeFormatter",
 		"Edit Preferences",
 		"GitGutter",
 		"JavaScript & NodeJS Snippets",
 		"Perforce",
+		"RegExLink",
+		"Sublime Bookmarks",
 		"SublimeLinter",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
