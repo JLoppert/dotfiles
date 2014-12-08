@@ -8,8 +8,8 @@ Sublime Text
 ==================
 Windows
 ```powershell
-cmd /c mklink /D "C:\Users\<user_name>\AppData\Sublime Text 3\Packages" ".\sublime\Packages"
-cmd /c mklink /D "C:\Users\<user_name>\AppData\Sublime Text 3\Installed Packages" ".\sublime\Installed Packages"
+cmd /c mklink /D "C:\Users\<user_name>\AppData\Roaming\Sublime Text 3\Packages" ".\sublime\Packages"
+cmd /c mklink /D "C:\Users\<user_name>\AppData\Roaming\Sublime Text 3\Installed Packages" ".\sublime\Installed Packages"
 ```
 
 OS X
