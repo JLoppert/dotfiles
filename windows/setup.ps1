@@ -1,2 +1,1 @@
-.\aliases.ps1
-.\symlinks.ps1
+& ($PSScriptRoot + "\symlinks.ps1")
