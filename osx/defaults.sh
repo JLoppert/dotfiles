@@ -18,3 +18,9 @@ defaults write -g NSScrollViewRubberbanding -int 0
 
 # Disable window opening animations
 defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool NO
+
+# Always open everything in Finder's list view.
+defaults write com.apple.Finder FXPreferredViewStyle Nlsv
+
+# Show the ~/Library folder.
+chflags nohidden ~/Library

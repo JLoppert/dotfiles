@@ -1,4 +1,12 @@
 {
+	"in_process_packages":
+	[
+	],
+	"installed_dependencies":
+	[
+		"0_package_control_loader",
+		"bz2"
+	],
 	"installed_packages":
 	[
 		"AlignTab",
@@ -6,7 +14,9 @@
 		"CodeFormatter",
 		"Edit Preferences",
 		"GitGutter",
+		"Indent XML",
 		"JavaScript & NodeJS Snippets",
+		"Package Control",
 		"Perforce",
 		"RegExLink",
 		"Sublime Bookmarks",

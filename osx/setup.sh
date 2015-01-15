@@ -1,0 +1,2 @@
+./defaults.sh
+./symlinks.sh
