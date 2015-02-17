@@ -55,5 +55,34 @@
         "keys": [
             "ctrl+shift+tab",
         ]
+    },
+    {
+        "command": "rename_path",
+        "keys": [
+            "f2"
+        ],
+        "args" : {
+            "paths": [
+                ""
+            ]
+        }
+    },
+    {
+        "command": "run_macro_file",
+        "keys": [
+            "alt+backspace"
+        ],
+        "args": {
+            "file": "Packages/User/macros/delete-subword-backwards.sublime-macro"
+        }
+    },
+    {
+        "command": "run_macro_file",
+        "keys": [
+            "alt+delete"
+        ],
+        "args": {
+            "file": "Packages/User/macros/delete-subword-forwards.sublime-macro"
+        }
     }
 ]
