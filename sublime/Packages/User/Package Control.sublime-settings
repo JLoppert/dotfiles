@@ -1,29 +1,6 @@
 {
-	"in_process_packages":
-	[
-	],
-	"installed_dependencies":
-	[
-		"0_package_control_loader",
-		"bz2"
-	],
 	"installed_packages":
 	[
-		"AlignTab",
-		"BracketHighlighter",
-		"CodeFormatter",
-		"Edit Preferences",
-		"GitGutter",
-		"Indent XML",
-		"JavaScript & NodeJS Snippets",
-		"Package Control",
-		"Perforce",
-		"RegExLink",
-		"Sublime Bookmarks",
-		"SublimeLinter",
-		"SublimeLinter-jshint",
-		"SublimeLinter-json",
-		"SublimeLinter-rubocop",
-		"TrailingSpaces"
+		"Package Control"
 	]
 }

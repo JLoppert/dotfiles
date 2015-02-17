@@ -11,5 +11,10 @@ Windows
 
 OS X
 ```bash
-./osx/setup.sh
+bash ./osx/setup.sh
+```
+
+Linux
+```bash
+bash ./linux/setup.sh
 ```

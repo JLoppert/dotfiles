@@ -1,12 +1,8 @@
-# Bash
-ln -s bash_profile ~/.bash_profile
+OSX=`dirname $BASH_SOURCE`
+ROOT=`dirname $OSX`
 
-# Git Completion
-ln -s git_completion ~/.git_completion
+# Bash
+ln -s $ROOT/bash/.bash_profile ~/.bash_profile
 
 # Sublime Text 3
-#ln -s <full_path>/sublime/Packages /Users/<user_name>/Library/Application\ Support/Sublime\ Text\ 3/Packages
-#ln -s <full_path>/sublime/Installed\ Packages /Users/<user_name>/Library/Application\ Support/Sublime\ Text\ 3/Installed\ Packages
-
-# Atom
-#ln -s <full_path>/atom /Users/<user_name>/.atom
+ln -s $ROOT/sublime/Packages /Users/$USER/Library/Application\ Support/Sublime\ Text\ 3/Packages

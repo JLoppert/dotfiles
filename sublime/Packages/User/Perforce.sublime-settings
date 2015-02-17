@@ -1,3 +1,0 @@
-{
-    "perforce_p4clientspec": "~/.perforce" // optional environent file to source rather than ~/.bash_profile
-}
