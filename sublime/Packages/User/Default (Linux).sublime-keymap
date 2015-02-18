@@ -57,16 +57,24 @@
         ]
     },
     {
-        "command": "rename_path",
+        // Requries File Rename Package
+        "command": "file_rename",
         "keys": [
-            "f2"
-        ],
-        "args" : {
-            "paths": [
-                ""
-            ]
-        }
+            "f2",
+        ]
     },
+    // {
+    //     "command": "rename_path",
+    //     "keys": [
+    //         "f2"
+    //     ],
+    //     "args" : {
+    //         "paths": [
+    //             // Default Text -- Cannot get file name directly
+    //             ""
+    //         ]
+    //     }
+    // },
     {
         "command": "run_macro_file",
         "keys": [
