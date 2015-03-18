@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+\$.ajax({
+    method: '${1:GET}',
+    url: '${2:/}',
+    data: { ${3:key} : ${4:value} }
+}).done(function(${5:response}) {
+  ${6:console.log(response);}
+});
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>$.aj</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.js, source.rails</scope> -->
+</snippet>
