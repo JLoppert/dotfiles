@@ -57,25 +57,6 @@
         ]
     },
     {
-        // Requries File Rename Package
-        "command": "file_rename",
-        "keys": [
-            "f2",
-        ]
-    },
-    // {
-    //     "command": "rename_path",
-    //     "keys": [
-    //         "f2"
-    //     ],
-    //     "args" : {
-    //         "paths": [
-    //             // Default Text -- Cannot get file name directly
-    //             ""
-    //         ]
-    //     }
-    // },
-    {
         "command": "run_macro_file",
         "keys": [
             "alt+backspace"
@@ -92,5 +73,20 @@
         "args": {
             "file": "Packages/User/macros/delete-subword-forwards.sublime-macro"
         }
+    },
+    {
+        "command": "refresh_folder_list",
+        "keys": [
+            "ctrl+k",
+            "r"
+        ]
+    },
+    {
+        // requires package: 'Terminal'
+        "command": "open_terminal",
+        "keys": [
+            "ctrl+k",
+            "ctrl+t"
+        ]
     }
 ]
