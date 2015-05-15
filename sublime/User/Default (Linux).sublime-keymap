@@ -1,4 +1,11 @@
 [
+    // requires package: Terminal
+    {   "command": "open_terminal",
+        "keys": [
+            "ctrl+k",
+            "ctrl+t"
+        ]
+    },
     {
         "command": "toggle_show_open_files",
         "keys": [
