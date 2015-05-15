@@ -4,21 +4,12 @@ function parse_git_branch {
 }
 
 function proml {
-  case $TERM in
-    xterm*)
-    TITLEBAR='\[\033]0;"\w"\007\]'
-    ;;
-    *)
-    TITLEBAR=""
-    ;;
-  esac
-
-PS1="${TITLEBAR}\
-\\[\e[0;31m\]\u\[\e[m\]:\[\e[0;34m\]\$(parse_git_branch)\[\e[m\]\
-\$ "
+# user@host:dir(branch)$
+PS1="\\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$(parse_git_branch)\[\e[m\]\$ "
 PS2='> '
 PS4='+ '
 }
+
 proml
 
 export CLICOLOR=1
