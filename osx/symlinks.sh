@@ -1,4 +1,4 @@
-OSX=`dirname $0`
+OSX=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 ROOT=`dirname $OSX`
 
 # Bash
