@@ -1,6 +1,1 @@
  [[ -s "$HOME/.profile" ]] && source "$HOME/.profile"
-source "/mathworks/devel/sandbox/jloppert/dotfiles/bash/aliases.bash"
-source "/mathworks/devel/sandbox/jloppert/dotfiles/git/aliases.bash"
-source "/mathworks/devel/sandbox/jloppert/dotfiles/git/git_branch_terminal.bash"
-source "/mathworks/devel/sandbox/jloppert/dotfiles/git/git_completion_terminal.bash"
-source "/mathworks/devel/sandbox/jloppert/dotfiles/linux/aliases.bash"
