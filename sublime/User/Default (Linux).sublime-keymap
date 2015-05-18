@@ -20,6 +20,7 @@
         ]
     },
     {
+        // requires package: TrailingSpaces
         "command": "delete_trailing_spaces",
         "keys": [
             "ctrl+k",
@@ -86,14 +87,6 @@
         "keys": [
             "ctrl+k",
             "r"
-        ]
-    },
-    {
-        // requires package: 'Terminal'
-        "command": "open_terminal",
-        "keys": [
-            "ctrl+k",
-            "ctrl+t"
         ]
     }
 ]
