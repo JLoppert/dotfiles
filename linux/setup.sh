@@ -3,8 +3,8 @@ ROOT=`dirname $LINUX`
 
 bash $LINUX/symlinks.sh
 
-# dynamically rewrite .bash_profile with absolute paths to .*.sh files
-# ex: bash/.alias.sh
+# dynamically rewrite .bash_profile with absolute paths to *.bash files
+# ex: bash/alias.bash
 OSX="$ROOT/osx/*"
 for script in "$ROOT"/*/*.bash ; do
   # ignore scripts for OSX
