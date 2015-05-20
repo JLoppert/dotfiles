@@ -1,4 +1,1 @@
-# ignore bash profile (to prevent commiting osx/linux source paths)
-# remove from ignore before commiting new changes
-bash/.bash_profile
 sublime/User/Package\ Control.*
