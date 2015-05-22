@@ -6,6 +6,11 @@ g () {
   man "git-$1"
 }
 
+# Diff
+gd () {
+  git diff -- "**/$1"
+}
+
 # Status
 alias s='git status'
 alias gs='git status -sb'
@@ -32,4 +37,4 @@ alias gbn='git checkout -b' # create new branch
 alias gbc='git rev-parse --abbrev-ref HEAD' # current branch
 
 # Diff
-alias gd='git diff'
+# alias gd='git diff'
