@@ -11,6 +11,16 @@ gd () {
   git diff -- "**/$1"
 }
 
+# Checkout
+gco () {
+  git checkout -- "**/$1"
+}
+
+# Commit
+gc () {
+  git commit -m "$1"
+}
+
 # Status
 alias s='git status'
 alias gs='git status -sb'
@@ -19,8 +29,7 @@ alias gs='git status -sb'
 alias ga='git add -A'
 alias gau='git add -u'
 
-# Commit
-alias gc='git commit'
+# Log
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
 
 # Undo
@@ -35,6 +44,3 @@ alias gpo='git push origin HEAD'
 alias gb='git branch --color'
 alias gbn='git checkout -b' # create new branch
 alias gbc='git rev-parse --abbrev-ref HEAD' # current branch
-
-# Diff
-# alias gd='git diff'
