@@ -1,6 +1,18 @@
 # Change to the root level directory the current git repository
 alias cdg='cd $(git rev-parse --show-toplevel || pwd)'
 
+# TODO: get absolute path
+# input = file.ext
+# output = absolute/path/to/file.ext
+_g_path () {
+  files=`ls`
+  if [[ $files =~ $1 ]] ; then
+    echo "$1"
+  else
+    echo "../**/$1"
+  fi
+}
+
 # Man
 g () {
   man "git-$1"
@@ -8,12 +20,12 @@ g () {
 
 # Diff
 gd () {
-  git diff -- "**/$1"
+  git diff -- `_g_path $1`
 }
 
 # Checkout
 gco () {
-  git checkout -- "**/$1"
+  git checkout -- `_g_path $1`
 }
 
 # Commit
