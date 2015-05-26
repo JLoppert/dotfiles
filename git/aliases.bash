@@ -8,6 +8,11 @@ g () {
   man "git-$1"
 }
 
+# Add
+ga () {
+  git add -- `ruby $path/git_completion_fullpath.rb $1`
+}
+
 # Diff
 gd () {
   git diff -- `ruby $path/git_completion_fullpath.rb $1`
@@ -16,6 +21,10 @@ gd () {
 # Checkout
 gco () {
   git checkout -- `ruby $path/git_completion_fullpath.rb $1`
+}
+
+gr () {
+  git reset HEAD -- `ruby $path/git_completion_fullpath.rb $1`
 }
 
 # Commit
@@ -27,16 +36,8 @@ gc () {
 alias s='git status'
 alias gs='git status -sb'
 
-# Add
-alias ga='git add -A'
-alias gau='git add -u'
-
 # Log
 alias gl="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(yellow)%d%Creset %Cgreen(%cr)%Creset' --abbrev-commit --date=relative"
-
-# Undo
-alias gco='git checkout'
-alias gr='git reset HEAD'
 
 # Push/Pull
 alias gp='git pull --prune'

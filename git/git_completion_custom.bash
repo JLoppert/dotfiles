@@ -6,6 +6,9 @@ _g_modified()
     COMPREPLY=( $(compgen -W "$modified_files" -- $cur) )
 }
 
+# git add
+complete -F _g_modified ga
+
 # git diff
 complete -F _g_modified gd
 
