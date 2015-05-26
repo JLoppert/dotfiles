@@ -1,3 +1,5 @@
+path="$( dirname "${BASH_SOURCE[0]}" )"
+
 # Change to the root level directory the current git repository
 alias cdg='cd $(git rev-parse --show-toplevel || pwd)'
 
@@ -8,12 +10,12 @@ g () {
 
 # Diff
 gd () {
-  git diff -- `ruby git_completion_fullpath.rb $1`
+  git diff -- `ruby $path/git_completion_fullpath.rb $1`
 }
 
 # Checkout
 gco () {
-  git checkout -- `ruby git_completion_fullpath.rb $1`
+  git checkout -- `ruby $path/git_completion_fullpath.rb $1`
 }
 
 # Commit
