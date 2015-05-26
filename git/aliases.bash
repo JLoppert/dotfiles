@@ -11,6 +11,7 @@ g () {
 # Add
 ga () {
   git add -- `ruby $path/git_completion_fullpath.rb $1`
+  git status
 }
 
 # Diff
@@ -21,10 +22,13 @@ gd () {
 # Checkout
 gco () {
   git checkout -- `ruby $path/git_completion_fullpath.rb $1`
+  git status
 }
 
+# Reset
 gr () {
   git reset HEAD -- `ruby $path/git_completion_fullpath.rb $1`
+  git status
 }
 
 # Commit
