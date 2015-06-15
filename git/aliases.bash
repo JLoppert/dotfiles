@@ -26,6 +26,8 @@ gco () {
 }
 
 # Reset
+alias gnuke='git reset HEAD --hard'
+
 gr () {
   git reset HEAD -- `ruby $path/git_completion_fullpath.rb $1`
   git status
