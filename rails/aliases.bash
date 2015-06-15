@@ -1,4 +1,4 @@
-alias r="rspec"
-alias ra="r spec/*"
-alias rc="r spec/controllers/*"
-alias rm="r spec/models/*"
+alias rs="rspec"
+alias rsa="r spec/*"
+alias rsc="r spec/controllers/*"
+alias rsm="r spec/models/*"

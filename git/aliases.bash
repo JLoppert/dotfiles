@@ -25,9 +25,6 @@ gco () {
   git status
 }
 
-# Reset
-alias gnuke='git reset HEAD --hard'
-
 gr () {
   git reset HEAD -- `ruby $path/git_completion_fullpath.rb $1`
   git status
@@ -53,3 +50,6 @@ alias gpo='git push origin HEAD'
 alias gb='git branch --color'
 alias gbn='git checkout -b' # create new branch
 alias gbc='git rev-parse --abbrev-ref HEAD' # current branch
+
+# Reset
+alias gnuke="git reset HEAD --hard"
