@@ -51,7 +51,7 @@ alias gl="git log --graph --pretty=format:'%Cred%h%Creset %an: %s - %Creset %C(y
 alias gpo='git push origin HEAD'
 
 # Branch
-alias gb='git branch --color'
+alias b='git branch --color'
 alias gbn='git checkout -b' # create new branch
 alias gbc='git rev-parse --abbrev-ref HEAD' # current branch
 
