@@ -7,3 +7,8 @@ rnuke () {
   RAILS_ENV=test rake db:schema:load
   RAILS_ENV=test rake db:migrate
 }
+
+# precompile assets for production
+rpc () {
+  RAILS_ENV=production rake assets:precompile --trace
+}
