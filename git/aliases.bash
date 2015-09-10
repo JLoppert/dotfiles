@@ -40,6 +40,13 @@ gp () {
   git pull origin `git rev-parse --abbrev-ref HEAD` --prune
 }
 
+# Branch from 'dev'
+gb () {
+  git checkout dev
+  git pull origin dev
+  git checkout -b "$1"
+}
+
 # Status
 alias s='git status'
 alias gs='git status -sb'
@@ -52,7 +59,6 @@ alias gpo='git push origin HEAD'
 
 # Branch
 alias b='git branch --color'
-alias gbn='git checkout -b' # create new branch
 alias gbc='git rev-parse --abbrev-ref HEAD' # current branch
 
 # Reset
